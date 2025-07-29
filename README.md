@@ -1,16 +1,16 @@
-# 🤖 Calyx-MD V2
+# 🤖 Calyx-MD
 
 This is a WhatsApp bot built using the Baileys library for group management, including features like tagging all members, muting/unmuting, and many more. It's designed to help admins efficiently manage WhatsApp groups.
 
 <div align="center"> 
   <a href="https://git.io/typing-svg"> 
-    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=Calyx-MD-V2;Multi+Device+Whatsapp+Bot;Coded+By+Calyx-Drey" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=Calyx-MD;Multi+Device+Whatsapp+Bot;Coded+By+Calyx-Drey" alt="Typing SVG" />
   </a> 
 </div> 
 
 <div align="center"> 
   <a href="https://www.youtube.com/@CalyxDrey"> 
-    <img src="https://github.com/calyxdrey18/Calyx-MD-V2/blob/main/assets/bot_image.jpg" alt="Calyx-MD V2" height="300"> 
+    <img src="https://github.com/calyxdrey18/Calyx-MD/blob/main/assets/bot_image.jpg" alt="Calyx-MD" height="300"> 
   </a> 
 </div>
 
@@ -20,10 +20,10 @@ This is a WhatsApp bot built using the Baileys library for group management, inc
 
 ### Step 1: Fork the Repository
 
-Click the button below to fork the Calyx-MD V2 repository to your GitHub account:
+Click the button below to fork the Calyx-MD repository to your GitHub account:
 
 <div align="center">
-  <a href="https://github.com/calyxdrey18/Calyx-MD V2/fork">
+  <a href="https://github.com/calyxdrey18/Calyx-MD/fork">
     <img src="https://img.shields.io/badge/Fork-Repository-blue?style=for-the-badge" alt="Fork the repository"/>
   </a>
 </div>
@@ -35,7 +35,7 @@ Click the button below to fork the Calyx-MD V2 repository to your GitHub account
 Deploy the bot and easily connect it to your WhatsApp account by pair code. Click the button below to deploy the bot on Render.
 
 <div align="center">
-  <a href="https://calyxdrey18.github.io/pair/" target="_blank">
+  <a href="https://knight-bot-paircode.onrender.com" target="_blank">
     <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Easy%20Method-ff4d4d?style=for-the-badge" alt="Generate Pair Code"/>
   </a>
 </div>
@@ -99,8 +99,8 @@ It is lightweight and can be easily customized to add more commands as per your 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/calyxdrey18/Calyx-MD V2.git
-    cd Calyx-MD V2
+    git clone https://github.com/calyxdrey18/Calyx-MD.git
+    cd Calyx-MD
     ```
 
 2. **Install the dependencies:**
@@ -124,19 +124,19 @@ It is lightweight and can be easily customized to add more commands as per your 
 
 ## 📄 License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](https://github.com/calyxdrey18/Calyx-MD V2/blob/main/LICENSE) file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](https://github.com/calyxdrey18/Calyx-MD/blob/main/LICENSE) file for details.
 
 ---
 
 ## 🙌 Contributions
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/calyxdrey18/Calyx-MD V2/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/calyxdrey18/Calyx-MD/issues).
 
 ---
 
 ## 🌟 Show your support
 
-If you like this project, please give it a [⭐️ star on GitHub](https://github.com/calyxdrey18/Calyx-MD V2)!
+If you like this project, please give it a [⭐️ star on GitHub](https://github.com/calyxdrey18/Calyx-MD)!
 
 
 ## Credits

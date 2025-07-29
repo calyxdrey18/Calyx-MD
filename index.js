@@ -69,10 +69,10 @@ const store = {
     }
 }
 
-let phoneNumber = "263716558758"
+let phoneNumber = "263786624966"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
-global.botname = "Calyx-MD V2"
+global.botname = "Calyx-MD"
 global.themeemoji = "•"
 
 const settings = require('./settings')
@@ -144,7 +144,7 @@ async function startXeonBotInc() {
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
                                 newsletterJid: '120363301940507195@newsletter',
-                                newsletterName: 'Calyx-MD V2',
+                                newsletterName: 'Calyx-MD',
                                 serverMessageId: -1
                             }
                         }
@@ -202,7 +202,7 @@ async function startXeonBotInc() {
         if (!!global.phoneNumber) {
             phoneNumber = global.phoneNumber
         } else {
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFormat: 263716558_5_ (without + or spaces) : `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please enter your WhatsApp number 😍\nFormat: 263716558_5_ (without + or spaces) : `)))
         }
 
         // Clean the phone number - remove any non-digit characters
@@ -218,7 +218,7 @@ async function startXeonBotInc() {
                 let code = await XeonBotInc.requestPairingCode(phoneNumber)
                 code = code?.match(/.{1,4}/g)?.join("-") || code
                 console.log(chalk.black(chalk.bgGreen(`Your Pairing Code : `)), chalk.black(chalk.white(code)))
-                console.log(chalk.yellow(`\nPlease enter this code in your WhatsApp app:\n1. Open WhatsApp\n2. Go to Settings > Linked Devices\n3. Tap "Link a Device"\n4. Enter the code shown above`))
+                console.log(chalk.yellow(`\nPlease enter this code in your WhatsApp:\n1. Open WhatsApp\n2. Go to Settings > Linked Devices\n3. Tap "Link a Device"\n4. Enter the code you received.`))
             } catch (error) {
                 console.error('Error requesting pairing code:', error)
                 console.log(chalk.red('Failed to get pairing code. Please check your phone number and try again.'))
@@ -236,22 +236,22 @@ async function startXeonBotInc() {
             const botNumber = XeonBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
             await XeonBotInc.sendMessage(botNumber, { 
                 text: `🤖 Bot Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Online and Ready!
-                \n✅Make sure to join below channel`,
+                \n✅Make sure to join the below channel`,
                 contextInfo: {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363301940507195@newsletter',
-                        newsletterName: 'Calyx-MD V2',
+                        newsletterName: 'Calyx-MD',
                         serverMessageId: -1
                     }
                 }
             });
 
             await delay(1999)
-            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'Calyx-MD V2'} ]`)}\n\n`))
+            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'Calyx-MD'} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: CALYX DREY `))
+            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: CalyxDrey`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: calyxdrey18`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: CALYX DREY `))

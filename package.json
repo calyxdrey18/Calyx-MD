@@ -1,13 +1,13 @@
 {
-  "name": "Calyx-MD V2",
+  "name": "Calyx-MD",
   "version": "1.0.0",
   "description": "WhatsApp Bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docker:build": "docker build -t Calyx-MD  V2.",
-    "docker:run": "docker run -e SESSION_ID=$SESSION_ID Calyx-MD V2"
+    "docker:build": "docker build -t Calyx-MD.",
+    "docker:run": "docker run -e SESSION_ID=$SESSION_ID Calyx-MD"
   },
   "keywords": [
     "whatsapp-bot"

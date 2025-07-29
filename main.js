@@ -100,7 +100,7 @@ const imagineCommand = require('./commands/imagine');
 global.packname = settings.packname;
 global.author = settings.author;
 global.channelLink = "https://whatsapp.com/channel/0029VagE9oHDp2Q34xE8S22c";
-global.ytch = "Calyx Drey";
+global.ytch = "CalyxDrey";
 
 // Add this near the top of main.js with other global configurations
 const channelInfo = {
@@ -109,7 +109,7 @@ const channelInfo = {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '120363301940507195@newsletter',
-            newsletterName: 'Calyx-MD V2',
+            newsletterName: 'Calyx-MD',
             serverMessageId: -1
         }
     }
