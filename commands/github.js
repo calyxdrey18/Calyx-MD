@@ -1,8 +1,8 @@
 async function githubCommand(sock, chatId) {
-    const repoInfo = `*🤖 Calyx-MD V2*
+    const repoInfo = `*🤖 Calyx-MD*
 
 *📂 GitHub Repository:*
-https://github.com/caly----------/--------------------- >>This repository is private.Dm Owner to buy the script
+https://github.com/×××××××/××××××>>This repository is private.Dm Owner to buy the script
 
 *📢 Official Channel:*
 https://www.youtube.com/@CalyxDrey
@@ -20,7 +20,7 @@ _Star ⭐ the repository if you like the bot!_`;
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363301940507195@newsletter',                  
-                    newsletterName: 'Calyx-MD V2',
+                    newsletterName: 'Calyx-MD',
                     serverMessageId: -1
                 }
             }

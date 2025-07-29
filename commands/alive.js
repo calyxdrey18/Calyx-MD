@@ -1,7 +1,7 @@
 const settings = require("../settings");
 async function aliveCommand(sock, chatId) {
     try {
-        const message = `*🤖 Calyx-MD V2 is Active!*\n\n` +
+        const message = `*🤖 Calyx-MD is Active!*\n\n` +
                        `*Version:* ${settings.version}\n` +
                        `*Status:* Online\n` +
                        `*Mode:* Public\n\n` +
@@ -20,7 +20,7 @@ async function aliveCommand(sock, chatId) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363301940507195@newsletter',
-                    newsletterName: 'Calyx-MD V2',
+                    newsletterName: 'Calyx-MD',
                     serverMessageId: -1
                 }
             }

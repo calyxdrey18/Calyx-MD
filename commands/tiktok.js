@@ -70,7 +70,7 @@ async function tiktokCommand(sock, chatId, message) {
                         await sock.sendMessage(chatId, {
                             video: { url: videoUrl },
                             mimetype: "video/mp4",
-                            caption: "𝙂𝙀𝙉𝙀𝙍𝘼𝙏𝙀𝘿 𝘽𝙔 𝘾𝘼𝙇𝙔𝙓-𝙈𝘿-𝙑2"
+                            caption: "𝙂𝙀𝙉𝙀𝙍𝘼𝙏𝙀𝘿 𝘽𝙔 𝘾𝘼𝙇𝙔𝙓-𝙈𝘿"
                         }, { quoted: message });
                         return;
                     }
